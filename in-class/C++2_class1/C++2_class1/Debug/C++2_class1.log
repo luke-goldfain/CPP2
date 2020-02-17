@@ -1,0 +1,3 @@
+﻿  pch.cpp
+  C++2_class1.cpp
+d:\documents\aaschool stuff\c++ 2\in-class\c++2_class1\c++2_class1\c++2_class1.cpp(11): fatal error C1083: Cannot open include file: 'C++2_class1.h': No such file or directory
