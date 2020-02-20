@@ -27,10 +27,8 @@ double Cafe::TakeOrder(double money)
     string userChoice = "";
     int choiceIndex = 0;
 
-    //string menuAry[] = {"Coffee", "Tea", "Juice", "Scones"};
     vector<string> menuVec = {"Coffee", "Tea", "Juice", "Scones"};
 
-    //double priceAry[] = {2.25, 1.95, 2.50, 3.00};
     vector<double> priceVec = {2.25, 1.95, 2.50, 3.00};
 
     cout << "Welcome to the cafe. Here is our menu:" << endl;
@@ -40,9 +38,9 @@ double Cafe::TakeOrder(double money)
         cout << menuVec[i] << " " << priceVec[i] << endl;
     }
 
-    bool validated = false;
+    bool validated[] = {false, false};
 
-    while (!validated)
+    while (!validated[0])
     {
         cout << "Please enter your choice:" << endl;
 
@@ -52,19 +50,53 @@ double Cafe::TakeOrder(double money)
         {
             if (userChoice == menuVec[j])
             {
-                validated = true;
+                validated[0] = true;
                 choiceIndex = j;
                 break;
             }
         }
 
-        if (!validated)
+        if (!validated[0])
         {
             cout << "Error: Invalid input. Please type your choice again." << endl;
         }
     }
 
-    money -= priceVec[choiceIndex];
+    string quantityChoice;
+    int qChoiceInt;
+
+    while (!validated[1])
+    {
+        cout << "How many would you like?" << endl;
+
+        cin >> quantityChoice;
+
+        try
+        {
+            qChoiceInt = stoi(quantityChoice);
+
+            if (money - (priceVec[choiceIndex] * qChoiceInt) > 0)
+            {
+                validated[1] = true;
+                break;
+            }
+            else
+            {
+                cout << "You don't have enough money for that!" << endl;
+            }
+        }
+        catch(invalid_argument const &e)
+        {
+            cout << "Error: Invalid input. Please type your choice again." << endl;
+        }
+        catch(out_of_range const &e)
+        {
+            cout << "Error: Invalid input. Please type your choice again." << endl;
+        }
+        
+    }
+
+    money -= priceVec[choiceIndex] * qChoiceInt;
 
     return money;
 }
