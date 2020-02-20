@@ -9,13 +9,13 @@ using namespace std;
 
 int main()
 {
-    double money = 5.25;
-    cout << money << endl;
+    double money = 10.25;
+    cout << "You have $" << money << endl;
 
     Cafe * cafe = new Cafe();
     money = cafe->TakeOrder(money);
 
-    cout << "You now have " << money << endl;
+    cout << "You now have $" << money << endl;
 
     cin.get();
 
@@ -95,6 +95,8 @@ double Cafe::TakeOrder(double money)
         }
         
     }
+
+    cout << "Here is your " << userChoice << "!" << endl;
 
     money -= priceVec[choiceIndex] * qChoiceInt;
 
