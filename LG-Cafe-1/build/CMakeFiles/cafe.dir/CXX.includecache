@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/cuser/LukeG/CPP2/LG-Cafe-1/Cafe.cpp
+iostream
+-
+string
+-
+vector
+-
+Cafe.h
+/home/cuser/LukeG/CPP2/LG-Cafe-1/Cafe.h
+
+/home/cuser/LukeG/CPP2/LG-Cafe-1/Cafe.h
+

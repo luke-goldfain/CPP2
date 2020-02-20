@@ -28,10 +28,10 @@ double Cafe::TakeOrder(double money)
     int choiceIndex = 0;
 
     //string menuAry[] = {"Coffee", "Tea", "Juice", "Scones"};
-    vector<string> menuVec {"Coffee", "Tea", "Juice", "Scones"};
+    vector<string> menuVec = {"Coffee", "Tea", "Juice", "Scones"};
 
     //double priceAry[] = {2.25, 1.95, 2.50, 3.00};
-    vector<double> priceVec {2.25, 1.95, 2.50, 3.00};
+    vector<double> priceVec = {2.25, 1.95, 2.50, 3.00};
 
     cout << "Welcome to the cafe. Here is our menu:" << endl;
 
