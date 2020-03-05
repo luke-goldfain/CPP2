@@ -1,0 +1,5 @@
+D:/Documents/AASchool Stuff/C++ 2/CPP2/in-class/C++2_class5/ArrayInsert/build/CMakeFiles/gtest.dir
+D:/Documents/AASchool Stuff/C++ 2/CPP2/in-class/C++2_class5/ArrayInsert/build/CMakeFiles/elements-tests.dir
+D:/Documents/AASchool Stuff/C++ 2/CPP2/in-class/C++2_class5/ArrayInsert/build/CMakeFiles/elements.dir
+D:/Documents/AASchool Stuff/C++ 2/CPP2/in-class/C++2_class5/ArrayInsert/build/CMakeFiles/ALL_BUILD.dir
+D:/Documents/AASchool Stuff/C++ 2/CPP2/in-class/C++2_class5/ArrayInsert/build/CMakeFiles/ZERO_CHECK.dir
