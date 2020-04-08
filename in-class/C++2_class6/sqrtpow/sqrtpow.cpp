@@ -1,9 +1,10 @@
 #include "sqrtpow.hpp"
 #include <iostream>
+#include <string>
 
 using namespace std;
 
-double sqrt(double entry)
+double calcSqrt(double entry)
 {
     if (entry <= 0)
     {
@@ -33,7 +34,7 @@ double sqrt(double entry)
     return returnRoot;
 }
 
-double pow(double entry, int power)
+double calcPow(double entry, int power)
 {
     double returnPow = 1;
 
@@ -71,7 +72,7 @@ int main()
         cerr << e.what() << '\n';
     }
 
-    double result = sqrt(choiceNum);
+    double result = calcSqrt(choiceNum);
 
     cout << "Square root of " << choiceNum << " is " << result;
 
@@ -101,7 +102,7 @@ int main()
         cerr << e.what() << '\n';
     }
 
-    result = pow(choiceNum, powChoiceNum);
+    result = calcPow(choiceNum, powChoiceNum);
 
     cout << choiceNum << " to the power of " << powChoiceNum << " is " << result << endl;
 

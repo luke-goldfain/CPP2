@@ -1,0 +1,10 @@
+^D:\DOCUMENTS\AASCHOOL STUFF\C++ 2\CPP2\IN-CLASS\C++2_CLASS6\SQRTPOW\BUILD\CMAKEFILES\356A0F1CD80C9B5CC055731939013C29\GENERATE.STAMP.RULE
+setlocal
+"D:\Program Files (x86)\CMake\bin\cmake.exe" "-SD:/Documents/AASchool Stuff/C++ 2/CPP2/in-class/C++2_class6/sqrtpow" "-BD:/Documents/AASchool Stuff/C++ 2/CPP2/in-class/C++2_class6/sqrtpow/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "D:/Documents/AASchool Stuff/C++ 2/CPP2/in-class/C++2_class6/sqrtpow/build/sqrtpow.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

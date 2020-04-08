@@ -1,1 +1,5 @@
-/home/cuser/LukeG/CPP2/in-class/C++2_class6/sqrtpow/build/CMakeFiles/elements.dir
+D:/Documents/AASchool Stuff/C++ 2/CPP2/in-class/C++2_class6/sqrtpow/build/CMakeFiles/gtest.dir
+D:/Documents/AASchool Stuff/C++ 2/CPP2/in-class/C++2_class6/sqrtpow/build/CMakeFiles/sqrtpow-tests.dir
+D:/Documents/AASchool Stuff/C++ 2/CPP2/in-class/C++2_class6/sqrtpow/build/CMakeFiles/sqrtpow.dir
+D:/Documents/AASchool Stuff/C++ 2/CPP2/in-class/C++2_class6/sqrtpow/build/CMakeFiles/ALL_BUILD.dir
+D:/Documents/AASchool Stuff/C++ 2/CPP2/in-class/C++2_class6/sqrtpow/build/CMakeFiles/ZERO_CHECK.dir
