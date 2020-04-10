@@ -1,0 +1,3 @@
+[submodule "in-class/C++2_class6/sqrtpow/googletest"]
+	path = in-class/C++2_class6/sqrtpow/googletest
+	url = https://github.com/google/googletest.git

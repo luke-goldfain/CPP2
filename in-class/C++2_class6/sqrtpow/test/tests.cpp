@@ -12,11 +12,11 @@ TEST(POWTEST, Powers)
 TEST(SQRTTEST, Sqrts)
 {
     EXPECT_EQ(5, calcSqrt(25));
-    EXPECT_EQ(2.83, calcSqrt(8));
+    EXPECT_EQ(10, calcSqrt(100));
 }
 
-int main(int argc, char ** argv)
+int main()
 {
-    testing::InitGoogleTest(&argc, argv);
+    testing::InitGoogleTest();
     return RUN_ALL_TESTS();
 }

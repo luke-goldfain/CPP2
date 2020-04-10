@@ -10,7 +10,10 @@ set(CMAKE_CXX_STANDARD 11)
 
 set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -Wall -pthread")
 
-add_executable(sqrtpow sqrtpow.cpp)
+set(UNIT_TESTS test/tests.cpp)
+set(MAIN_FILE src/sqrtpow.cpp)
+
+add_executable(sqrtpow main.cpp sqrtpow.cpp)
 
 add_executable(sqrtpow-tests test/tests.cpp sqrtpow.cpp)
-target_link_libraries(sqrtpow-tests ${CMAKE_THREAD_LIBS_INIT} gtest)
+target_link_libraries(sqrtpow-tests gtest ${CMAKE_THREAD_LIBS_INIT})
