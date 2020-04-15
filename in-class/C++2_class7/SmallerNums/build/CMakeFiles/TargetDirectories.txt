@@ -1,0 +1,3 @@
+D:/Documents/AASchool Stuff/C++ 2/CPP2/in-class/C++2_class7/SmallerNums/build/CMakeFiles/SmallerNums.dir
+D:/Documents/AASchool Stuff/C++ 2/CPP2/in-class/C++2_class7/SmallerNums/build/CMakeFiles/ALL_BUILD.dir
+D:/Documents/AASchool Stuff/C++ 2/CPP2/in-class/C++2_class7/SmallerNums/build/CMakeFiles/ZERO_CHECK.dir
