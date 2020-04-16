@@ -1,5 +1,4 @@
 // ChangeMaker.cpp
-#include <vector>
 #include "ChangeMaker.h"
 
 using namespace std;
@@ -22,7 +21,7 @@ vector<double> ChangeMaker::GetChangeInCoins(double totalChange)
     {
         for (int i = 0; i < changeValues.size(); i++)
         {
-            if (changeValues[i] <= unrenderedChange)
+            if (changeValues[i] <= unrenderedChange + 0.009) // Bruteforcey... Add 0.009 so doubles quit rounding down like they like to
             {
                 unrenderedChange -= changeValues[i];
 

@@ -4,7 +4,7 @@
 
 TEST(changeTest, change)
 {
-    ChangeMaker testChange = new ChangeMaker();
+    ChangeMaker testChange = ChangeMaker();
 
     std::vector<double> testChangeVec {0.25, 0.05};
 

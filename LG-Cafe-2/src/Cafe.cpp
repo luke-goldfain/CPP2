@@ -1,5 +1,4 @@
 //Cafe.cpp
-
 #include <iostream>
 #include <string>
 #include <vector>
@@ -18,7 +17,7 @@ int main()
     return 0;
 }
 
-double Cafe::TakeOrder()
+void Cafe::TakeOrder()
 {
     string userChoice = "";
     int choiceIndex = 0;
@@ -84,7 +83,7 @@ double Cafe::TakeOrder()
         
     }
 
-    double totalPrice = (double)quantityChoice * priceVec[choiceIndex];
+    double totalPrice = (double)qChoiceInt * priceVec[choiceIndex];
 
     string payAmt;
     int payAmtInt;
@@ -121,7 +120,7 @@ double Cafe::TakeOrder()
     // Change stuff
     ChangeMaker * chMaker = new ChangeMaker();
 
-    double totalChange = chMaker->GetTotalChange(totalPrice, payAmtInt);
+    double totalChange = chMaker->GetTotalChange(totalPrice, (double)payAmtInt);
 
     vector<double> changeInCoins = chMaker->GetChangeInCoins(totalChange);
 

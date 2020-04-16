@@ -1,0 +1,5 @@
+D:/Documents/AASchool Stuff/C++ 2/CPP2/LG-Cafe-2/build/CMakeFiles/gtest.dir
+D:/Documents/AASchool Stuff/C++ 2/CPP2/LG-Cafe-2/build/CMakeFiles/Cafe.dir
+D:/Documents/AASchool Stuff/C++ 2/CPP2/LG-Cafe-2/build/CMakeFiles/ChangeTest.dir
+D:/Documents/AASchool Stuff/C++ 2/CPP2/LG-Cafe-2/build/CMakeFiles/ALL_BUILD.dir
+D:/Documents/AASchool Stuff/C++ 2/CPP2/LG-Cafe-2/build/CMakeFiles/ZERO_CHECK.dir

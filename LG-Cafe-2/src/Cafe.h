@@ -5,7 +5,7 @@
 class Cafe
 {
 public:
-    double TakeOrder();
+    void TakeOrder();
 };
 
 #endif

@@ -18,7 +18,7 @@ endif()
 
 set(UNIT_TESTS test/tests.cpp)
 set(MAIN_FILE src/Cafe.cpp)
-add_executable(Cafe ${MAIN_FILE} src/Cafe.cpp)
+add_executable(Cafe ${MAIN_FILE} src/Cafe.cpp src/ChangeMaker.cpp)
 
 add_executable(ChangeTest ${UNIT_TESTS} test/tests.cpp src/ChangeMaker.cpp)
 target_link_libraries(ChangeTest gtest ${CMAKE_THREAD_LIBS_INIT})
