@@ -1,30 +1,15 @@
 //Cafe.cpp
 #include <iostream>
-#include <string>
 #include <vector>
 #include "Cafe.h"
 #include "ChangeMaker.h"
 
 using namespace std;
 
-int main()
-{
-    Cafe * cafe = new Cafe();
-    cafe->TakeOrder();
-
-    cin.get();
-
-    return 0;
-}
-
 void Cafe::TakeOrder()
 {
     string userChoice = "";
     int choiceIndex = 0;
-
-    vector<string> menuVec = {"Coffee", "Tea", "Juice", "Scones"};
-
-    vector<double> priceVec = {2.25, 1.95, 2.50, 3.00};
 
     cout << "Welcome to the cafe. Here is our menu:" << endl;
 
@@ -83,7 +68,8 @@ void Cafe::TakeOrder()
         
     }
 
-    double totalPrice = (double)qChoiceInt * priceVec[choiceIndex];
+    //double totalPrice = (double)qChoiceInt * priceVec[choiceIndex];
+    double totalPrice = CalculateTotalPrice(qChoiceInt, choiceIndex);
 
     string payAmt;
     int payAmtInt;
@@ -132,4 +118,14 @@ void Cafe::TakeOrder()
     }
 
     cout << endl;
+}
+
+double Cafe::CalculateTotalPrice(int quantity, int menuIndex)
+{
+    if (quantity > 0 && menuIndex >= 0)
+    {
+        return (double)quantity * priceVec[menuIndex];
+    }
+
+    return 0.;
 }

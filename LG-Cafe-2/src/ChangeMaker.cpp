@@ -5,7 +5,12 @@ using namespace std;
 
 double ChangeMaker::GetTotalChange(double price, double paid)
 {
-    return paid - price;
+    if (paid >= price)
+    {
+        return paid - price;
+    }
+
+    return 0.;
 }
 
 vector<double> ChangeMaker::GetChangeInCoins(double totalChange)
@@ -13,9 +18,6 @@ vector<double> ChangeMaker::GetChangeInCoins(double totalChange)
     vector<double> changeReturnVec;
 
     double unrenderedChange = totalChange;
-
-    // Vector to reference for what coins to return
-    vector<double> changeValues {20., 10., 5., 1., .50, .25, .10, .05, .01};
 
     while (unrenderedChange > 0.)
     {

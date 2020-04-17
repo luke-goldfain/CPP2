@@ -4,6 +4,9 @@
     <ClCompile Include="D:\Documents\AASchool Stuff\C++ 2\CPP2\LG-Cafe-2\test\tests.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="D:\Documents\AASchool Stuff\C++ 2\CPP2\LG-Cafe-2\src\Cafe.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="D:\Documents\AASchool Stuff\C++ 2\CPP2\LG-Cafe-2\src\ChangeMaker.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>

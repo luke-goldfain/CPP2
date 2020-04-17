@@ -317,6 +317,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="D:\Documents\AASchool Stuff\C++ 2\CPP2\LG-Cafe-2\test\tests.cpp" />
+    <ClCompile Include="D:\Documents\AASchool Stuff\C++ 2\CPP2\LG-Cafe-2\src\Cafe.cpp" />
     <ClCompile Include="D:\Documents\AASchool Stuff\C++ 2\CPP2\LG-Cafe-2\src\ChangeMaker.cpp" />
   </ItemGroup>
   <ItemGroup>
