@@ -7,10 +7,10 @@ class Cafe
 {
 private:
     std::vector<std::string> menuVec = {"Coffee", "Tea", "Juice", "Scones"};
-    std::vector<double> priceVec = {2.25, 1.95, 2.50, 3.00};
+    std::vector<float> priceVec = {2.25f, 1.95f, 2.50f, 3.f};
 public:
     void TakeOrder();
-    double CalculateTotalPrice(int quantity, int menuIndex);
+    float CalculateTotalPrice(int quantity, int menuIndex);
 };
 
 #endif

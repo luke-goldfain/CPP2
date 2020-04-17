@@ -8,10 +8,10 @@ class ChangeMaker
 {
 private:
     // Vector to reference for what coins to return
-    std::vector<double> changeValues {20., 10., 5., 1., .50, .25, .10, .05, .01};
+    std::vector<float> changeValues {20.f, 10.f, 5.f, 1.f, .50f, .25f, .10f, .05f, .01f};
 public:
-    double GetTotalChange(double price, double paid);
-    std::vector<double> GetChangeInCoins(double totalChange);
+    float GetTotalChange(float price, float paid);
+    std::vector<float> GetChangeInCoins(float totalChange);
 };
 
 #endif

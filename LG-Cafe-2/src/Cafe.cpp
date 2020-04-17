@@ -69,7 +69,7 @@ void Cafe::TakeOrder()
     }
 
     //double totalPrice = (double)qChoiceInt * priceVec[choiceIndex];
-    double totalPrice = CalculateTotalPrice(qChoiceInt, choiceIndex);
+    float totalPrice = CalculateTotalPrice(qChoiceInt, choiceIndex);
 
     string payAmt;
     int payAmtInt;
@@ -84,7 +84,7 @@ void Cafe::TakeOrder()
         {
             payAmtInt = stoi(payAmt);
 
-            if ((double)payAmtInt >= totalPrice)
+            if ((float)payAmtInt >= totalPrice)
             {
                 validated[2] = true;
             }
@@ -106,9 +106,9 @@ void Cafe::TakeOrder()
     // Change stuff
     ChangeMaker * chMaker = new ChangeMaker();
 
-    double totalChange = chMaker->GetTotalChange(totalPrice, (double)payAmtInt);
+    float totalChange = chMaker->GetTotalChange(totalPrice, (float)payAmtInt);
 
-    vector<double> changeInCoins = chMaker->GetChangeInCoins(totalChange);
+    vector<float> changeInCoins = chMaker->GetChangeInCoins(totalChange);
 
     cout << "Change received: ";
 
@@ -120,12 +120,12 @@ void Cafe::TakeOrder()
     cout << endl;
 }
 
-double Cafe::CalculateTotalPrice(int quantity, int menuIndex)
+float Cafe::CalculateTotalPrice(int quantity, int menuIndex)
 {
     if (quantity > 0 && menuIndex >= 0)
     {
-        return (double)quantity * priceVec[menuIndex];
+        return (float)quantity * priceVec[menuIndex];
     }
 
-    return 0.;
+    return 0.f;
 }

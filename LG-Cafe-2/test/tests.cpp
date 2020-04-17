@@ -7,20 +7,20 @@ TEST(changeTest, totalChange)
 {
     ChangeMaker testChange = ChangeMaker();
 
-    ASSERT_EQ(8.2, testChange.GetTotalChange(10., 18.2));
-    ASSERT_EQ(0.21, testChange.GetTotalChange(11.79, 12.));
+    ASSERT_NEAR(8.2f, testChange.GetTotalChange(10.f, 18.2f), 0.001f);
+    ASSERT_NEAR(0.21f, testChange.GetTotalChange(11.79f, 12.f), 0.001f);
 }
 
 TEST(changeTest, coins)
 {
     ChangeMaker testChange = ChangeMaker();
 
-    std::vector<double> testChangeVec {0.25, 0.05};
+    std::vector<float> testChangeVec {0.25f, 0.05f};
     
-    std::vector<double> testChangeVec2 {10., 5., 1., .1, .01};
+    std::vector<float> testChangeVec2 {10.f, 5.f, 1.f, .1f, .01f};
 
-    ASSERT_EQ(testChangeVec, testChange.GetChangeInCoins(0.30));
-    ASSERT_EQ(testChangeVec2, testChange.GetChangeInCoins(16.11));
+    ASSERT_EQ(testChangeVec, testChange.GetChangeInCoins(0.3f));
+    ASSERT_EQ(testChangeVec2, testChange.GetChangeInCoins(16.11f));
 }
 
 TEST(cafeTest, calcPrice)
@@ -29,10 +29,10 @@ TEST(cafeTest, calcPrice)
 
   int quantity = 3;
 
-  ASSERT_EQ(6.75, cafe.CalculateTotalPrice(quantity, 0));
-  ASSERT_EQ(5.85, cafe.CalculateTotalPrice(quantity, 1));
-  ASSERT_EQ(7.5, cafe.CalculateTotalPrice(quantity, 2));
-  ASSERT_EQ(9., cafe.CalculateTotalPrice(quantity, 3));
+  ASSERT_NEAR(6.75f, cafe.CalculateTotalPrice(quantity, 0), 0.001f);
+  ASSERT_NEAR(5.85f, cafe.CalculateTotalPrice(quantity, 1), 0.001f);
+  ASSERT_NEAR(7.5f, cafe.CalculateTotalPrice(quantity, 2), 0.001f);
+  ASSERT_NEAR(9.f, cafe.CalculateTotalPrice(quantity, 3), 0.001f);
 }
 
 int main(int argc, char ** argv)

@@ -3,7 +3,7 @@
 
 using namespace std;
 
-double ChangeMaker::GetTotalChange(double price, double paid)
+float ChangeMaker::GetTotalChange(float price, float paid)
 {
     if (paid >= price)
     {
@@ -13,17 +13,17 @@ double ChangeMaker::GetTotalChange(double price, double paid)
     return 0.;
 }
 
-vector<double> ChangeMaker::GetChangeInCoins(double totalChange)
+vector<float> ChangeMaker::GetChangeInCoins(float totalChange)
 {
-    vector<double> changeReturnVec;
+    vector<float> changeReturnVec;
 
-    double unrenderedChange = totalChange;
+    float unrenderedChange = totalChange;
 
     while (unrenderedChange > 0.)
     {
         for (int i = 0; i < changeValues.size(); i++)
         {
-            if (changeValues[i] <= unrenderedChange + 0.009) // Bruteforcey... Add 0.009 so doubles quit rounding down like they like to
+            if (changeValues[i] <= unrenderedChange)
             {
                 unrenderedChange -= changeValues[i];
 
@@ -33,7 +33,7 @@ vector<double> ChangeMaker::GetChangeInCoins(double totalChange)
             }
         }
 
-        if (unrenderedChange < 0.01) // just covering my ass here from double tomfoolery
+        if (unrenderedChange < 0.01f) // just covering my ass here from rounding tomfoolery
         {
             break;
         }
