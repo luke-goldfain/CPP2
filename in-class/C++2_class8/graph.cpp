@@ -15,6 +15,11 @@ struct Point
   }
 };
 
+bool compareGraphPts(Point * lhs, Point * rhs)
+{
+  return (lhs->x > rhs->x);
+}
+
 class Graph
 {
 private:
@@ -35,9 +40,7 @@ public:
 
   std::vector<Point *> * sort()
   {
-    std::sort(this->m_points->begin(), this->m_points->end()-1, [](Point * lhs, Point * rhs) {
-        return (lhs->x > rhs->x);
-      });
+    std::sort(this->m_points->begin(), this->m_points->end(), compareGraphPts);
     return this->m_points;
   }
 };
