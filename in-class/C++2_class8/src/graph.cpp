@@ -35,7 +35,7 @@ public:
 
   std::vector<Point *> * sort()
   {
-    std::sort(this->m_points->begin(), this->m_points->end()-1, [](Point * lhs, Point * rhs) {
+    std::sort(this->m_points->begin(), this->m_points->end(), [](Point * lhs, Point * rhs) {
         return (lhs->x > rhs->x);
       });
     return this->m_points;
