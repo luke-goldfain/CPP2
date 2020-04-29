@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Documents\AASchool Stuff\C++ 2\CPP2\in-class\C++2_class9\unit-test-inclass\gtest\googletest\src\gtest-all.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\AASchool Stuff\C++ 2\CPP2\in-class\C++2_class9\unit-test-inclass\gtest\googletest\src\gtest_main.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Documents\AASchool Stuff\C++ 2\CPP2\in-class\C++2_class9\unit-test-inclass\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{0E6B456C-321F-32E0-A1E9-D2DB6D3D47B3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,4 @@
+D:/Documents/AASchool Stuff/C++ 2/CPP2/in-class/C++2_class9/unit-test-inclass/build/CMakeFiles/gtest.dir
+D:/Documents/AASchool Stuff/C++ 2/CPP2/in-class/C++2_class9/unit-test-inclass/build/CMakeFiles/mock-user-test.dir
+D:/Documents/AASchool Stuff/C++ 2/CPP2/in-class/C++2_class9/unit-test-inclass/build/CMakeFiles/ALL_BUILD.dir
+D:/Documents/AASchool Stuff/C++ 2/CPP2/in-class/C++2_class9/unit-test-inclass/build/CMakeFiles/ZERO_CHECK.dir

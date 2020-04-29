@@ -4,3 +4,6 @@
 [submodule "LG-Cafe-2/googletest"]
 	path = LG-Cafe-2/googletest
 	url = https://github.com/google/googletest.git
+[submodule "in-class/C++2_class9/unit-test-inclass/googletest"]
+	path = in-class/C++2_class9/unit-test-inclass/googletest
+	url = https://github.com/google/googletest.git

@@ -1,0 +1,10 @@
+^D:\DOCUMENTS\AASCHOOL STUFF\C++ 2\CPP2\IN-CLASS\C++2_CLASS9\UNIT-TEST-INCLASS\BUILD\CMAKEFILES\D80BEB1AD0F4E28BC19423F4808A7A1F\GENERATE.STAMP.RULE
+setlocal
+"D:\Program Files (x86)\CMake\bin\cmake.exe" "-SD:/Documents/AASchool Stuff/C++ 2/CPP2/in-class/C++2_class9/unit-test-inclass" "-BD:/Documents/AASchool Stuff/C++ 2/CPP2/in-class/C++2_class9/unit-test-inclass/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "D:/Documents/AASchool Stuff/C++ 2/CPP2/in-class/C++2_class9/unit-test-inclass/build/mock-user.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
