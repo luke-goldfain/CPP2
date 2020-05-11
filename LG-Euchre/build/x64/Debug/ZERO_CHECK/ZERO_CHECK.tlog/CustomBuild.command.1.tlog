@@ -1,0 +1,10 @@
+^D:\DOCUMENTS\AASCHOOL STUFF\C++ 2\CPP2\LG-EUCHRE\BUILD\CMAKEFILES\48BC4AC35D184B0FB01E0B8750536C48\GENERATE.STAMP.RULE
+setlocal
+"D:\Program Files (x86)\CMake\bin\cmake.exe" "-SD:/Documents/AASchool Stuff/C++ 2/CPP2/LG-Euchre" "-BD:/Documents/AASchool Stuff/C++ 2/CPP2/LG-Euchre/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "D:/Documents/AASchool Stuff/C++ 2/CPP2/LG-Euchre/build/EuchreEval.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
