@@ -7,6 +7,8 @@ int main()
 {
     EuchreDealer * euchre = new EuchreDealer();
 
+    //std::cout << euchre->DisplayAllCards() << std::endl;
+
     euchre->ShuffleDeck();
 
     std::vector<Card> hand = euchre->DealHand();
@@ -16,5 +18,9 @@ int main()
         std::cout << hand[i].Name << " of " << hand[i].DisplaySuit() << std::endl;
     }
 
-    std::cout << "Evaluation of hand: " << euchre->HandEval(hand);
+    std::cout << "Trump suit: " << euchre->DisplayTrumpSuit() << std::endl;
+
+    std::cout << "Evaluation of hand: " << euchre->HandEval(&hand);
+
+    return 0;
 }

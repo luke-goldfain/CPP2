@@ -3,10 +3,12 @@
 #include <algorithm>
 #include <random>
 #include <stdio.h>
-#include <stdlib.h>
+#include <ctime> 
 
 void Deck::Shuffle()
 {
+    std::srand(time(0));
+
     auto rng = std::default_random_engine {};
 
     // in the future, would be cool to write my own shuffler
@@ -19,6 +21,8 @@ void Deck::Shuffle()
 
 void Deck::ShuffleOnlyCurrent()
 {
+    std::srand(std::time(0));
+
     auto rng = std::default_random_engine {};
 
     // in the future, would be cool to write my own shuffler
@@ -39,13 +43,15 @@ std::vector<Card> Deck::DealHand(int handSize)
         int randC = std::rand() % (AvailableCards.size() - 1);
 
         returnHand.push_back(AvailableCards[randC]);
+
+        DiscardCard(&AvailableCards[randC]);
     }
 
-    // Goes through each card in discardedCards and removes it from AvailableCards - this could be its own function
-    for (int j = 0; j < returnHand.size(); j++)
-    {
-        DiscardCard(&returnHand[j]);
-    }
+    // Goes through each card in returnHand and removes it from AvailableCards
+    //for (int j = 0; j < returnHand.size(); j++)
+    //{
+    //    DiscardCard(&returnHand[j]);
+    //}
 
     return returnHand;
 }

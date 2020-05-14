@@ -1,6 +1,7 @@
 // EuchreDealer.h
 #ifndef EUCHREDEALER_H
 #define EUCHREDEALER_H
+#include <ctime> 
 #include "Deck.h"
 
 class EuchreDealer
@@ -13,6 +14,8 @@ public:
 
     EuchreDealer()
     {
+        std::srand(std::time(0));
+
         euchreDeck = Deck();
 
         // Assign random trump suit using a rand int
@@ -42,19 +45,21 @@ public:
             {
                 Card * c = new Card(static_cast<Suits>(i), j);
 
-                euchreDeck.DiscardCard(*c);
+                euchreDeck.DiscardCard(c);
             }
         }
     };
 
-    ~EuchreDealer()
-    {
-        delete euchreDeck;
-    }
+    //~EuchreDealer()
+    //{
+    //    delete euchreDeck;
+    //}
 
     void ShuffleDeck();
     std::vector<Card> DealHand();
-    float HandEval(std::vector<Card> hand);
-}
+    std::string DisplayTrumpSuit();
+    std::string DisplayAllCards();
+    float HandEval(std::vector<Card> * hand);
+};
 
 #endif
