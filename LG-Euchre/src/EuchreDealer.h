@@ -13,10 +13,10 @@ public:
 
     EuchreDealer()
     {
-        euchreDeck = new Deck();
+        euchreDeck = Deck();
 
         // Assign random trump suit using a rand int
-        trumpSuit = std::rand() % 4;
+        trumpSuit = static_cast<Suits>( std::rand() % 4 );
 
         // Assign left bower suit based on trump suit
         switch (trumpSuit)
@@ -40,9 +40,9 @@ public:
         {
             for (int j = 2; j < 7; j++)
             {
-                Card c = new Card(i, j);
+                Card * c = new Card(static_cast<Suits>(i), j);
 
-                euchreDeck.DiscardCard(&c);
+                euchreDeck.DiscardCard(*c);
             }
         }
     };
