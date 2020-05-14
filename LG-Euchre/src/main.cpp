@@ -1,18 +1,20 @@
-//main.cpp Euchre
+//main.cpp EuchreEval
 #include <iostream>
 #include <vector>
-#include "Deck.h"
+#include "EuchreDealer.h"
 
 int main()
 {
-    Deck * deck = new Deck();
+    EuchreDealer * euchre = new EuchreDealer();
 
-    deck->Shuffle();
+    euchre->ShuffleDeck();
 
-    std::vector<Card> hand = deck->DealHand(4);
+    std::vector<Card> hand = euchre->DealHand();
 
     for (int i = 0; i < hand.size(); i++)
     {
         std::cout << hand[i].Name << " of " << hand[i].DisplaySuit() << std::endl;
     }
+
+    std::cout << "Evaluation of hand: " << euchre->HandEval(hand);
 }

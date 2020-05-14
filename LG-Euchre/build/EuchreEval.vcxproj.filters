@@ -1,22 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="D:\Documents\AASchool Stuff\C++ 2\CPP2\LG-Euchre\src\main.cpp">
+    <ClCompile Include="F:\Users\Luke\Documents\AASchool shit\columbia\C++ 2\CPP2\LG-Euchre\src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Documents\AASchool Stuff\C++ 2\CPP2\LG-Euchre\src\Card.cpp">
+    <ClCompile Include="F:\Users\Luke\Documents\AASchool shit\columbia\C++ 2\CPP2\LG-Euchre\src\Card.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Documents\AASchool Stuff\C++ 2\CPP2\LG-Euchre\src\Deck.cpp">
+    <ClCompile Include="F:\Users\Luke\Documents\AASchool shit\columbia\C++ 2\CPP2\LG-Euchre\src\Deck.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Users\Luke\Documents\AASchool shit\columbia\C++ 2\CPP2\LG-Euchre\src\EuchreDealer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Documents\AASchool Stuff\C++ 2\CPP2\LG-Euchre\CMakeLists.txt" />
+    <CustomBuild Include="F:\Users\Luke\Documents\AASchool shit\columbia\C++ 2\CPP2\LG-Euchre\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{DFF57EBE-E7EB-3CA8-B7BB-13E011E5EEB0}</UniqueIdentifier>
+      <UniqueIdentifier>{49AA3BC1-7ADA-3F5A-AB0A-20F9C6905CC1}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

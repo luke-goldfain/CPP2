@@ -16,4 +16,4 @@ elseif (CMAKE_CXX_COMPILER_ID STREQUAL "MSVC")
 endif()
 
 set(MAIN_FILE src/main.cpp)
-add_executable(EuchreEval ${MAIN_FILE} src/main.cpp src/Card.cpp src/Deck.cpp)
+add_executable(EuchreEval ${MAIN_FILE} src/main.cpp src/Card.cpp src/Deck.cpp src/EuchreDealer.cpp)

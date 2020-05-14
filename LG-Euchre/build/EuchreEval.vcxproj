@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{2209B619-68B3-3050-8758-F8F0B1906F51}</ProjectGuid>
+    <ProjectGuid>{8D9D2B56-D45E-34A7-8A91-A8CD896C0F53}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
@@ -59,25 +59,25 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Documents\AASchool Stuff\C++ 2\CPP2\LG-Euchre\build\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\Users\Luke\Documents\AASchool shit\columbia\C++ 2\CPP2\LG-Euchre\build\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">EuchreEval.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">EuchreEval</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Documents\AASchool Stuff\C++ 2\CPP2\LG-Euchre\build\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\Users\Luke\Documents\AASchool shit\columbia\C++ 2\CPP2\LG-Euchre\build\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">EuchreEval.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">EuchreEval</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Documents\AASchool Stuff\C++ 2\CPP2\LG-Euchre\build\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\Users\Luke\Documents\AASchool shit\columbia\C++ 2\CPP2\LG-Euchre\build\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">EuchreEval.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">EuchreEval</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Documents\AASchool Stuff\C++ 2\CPP2\LG-Euchre\build\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\Users\Luke\Documents\AASchool shit\columbia\C++ 2\CPP2\LG-Euchre\build\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">EuchreEval.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">EuchreEval</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
@@ -86,7 +86,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Documents\AASchool Stuff\C++ 2\CPP2\LG-Euchre\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\Users\Luke\Documents\AASchool shit\columbia\C++ 2\CPP2\LG-Euchre\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -104,10 +104,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Documents\AASchool Stuff\C++ 2\CPP2\LG-Euchre\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\Users\Luke\Documents\AASchool shit\columbia\C++ 2\CPP2\LG-Euchre\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Documents\AASchool Stuff\C++ 2\CPP2\LG-Euchre\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\Users\Luke\Documents\AASchool shit\columbia\C++ 2\CPP2\LG-Euchre\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -120,8 +120,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/Documents/AASchool Stuff/C++ 2/CPP2/LG-Euchre/build/Debug/EuchreEval.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/Documents/AASchool Stuff/C++ 2/CPP2/LG-Euchre/build/Debug/EuchreEval.pdb</ProgramDataBaseFile>
+      <ImportLibrary>F:/Users/Luke/Documents/AASchool shit/columbia/C++ 2/CPP2/LG-Euchre/build/Debug/EuchreEval.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/Users/Luke/Documents/AASchool shit/columbia/C++ 2/CPP2/LG-Euchre/build/Debug/EuchreEval.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -130,7 +130,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Documents\AASchool Stuff\C++ 2\CPP2\LG-Euchre\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\Users\Luke\Documents\AASchool shit\columbia\C++ 2\CPP2\LG-Euchre\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -148,10 +148,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Documents\AASchool Stuff\C++ 2\CPP2\LG-Euchre\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\Users\Luke\Documents\AASchool shit\columbia\C++ 2\CPP2\LG-Euchre\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Documents\AASchool Stuff\C++ 2\CPP2\LG-Euchre\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\Users\Luke\Documents\AASchool shit\columbia\C++ 2\CPP2\LG-Euchre\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -164,8 +164,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/Documents/AASchool Stuff/C++ 2/CPP2/LG-Euchre/build/Release/EuchreEval.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/Documents/AASchool Stuff/C++ 2/CPP2/LG-Euchre/build/Release/EuchreEval.pdb</ProgramDataBaseFile>
+      <ImportLibrary>F:/Users/Luke/Documents/AASchool shit/columbia/C++ 2/CPP2/LG-Euchre/build/Release/EuchreEval.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/Users/Luke/Documents/AASchool shit/columbia/C++ 2/CPP2/LG-Euchre/build/Release/EuchreEval.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -174,7 +174,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Documents\AASchool Stuff\C++ 2\CPP2\LG-Euchre\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\Users\Luke\Documents\AASchool shit\columbia\C++ 2\CPP2\LG-Euchre\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -192,10 +192,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Documents\AASchool Stuff\C++ 2\CPP2\LG-Euchre\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\Users\Luke\Documents\AASchool shit\columbia\C++ 2\CPP2\LG-Euchre\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Documents\AASchool Stuff\C++ 2\CPP2\LG-Euchre\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\Users\Luke\Documents\AASchool shit\columbia\C++ 2\CPP2\LG-Euchre\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -208,8 +208,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/Documents/AASchool Stuff/C++ 2/CPP2/LG-Euchre/build/MinSizeRel/EuchreEval.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/Documents/AASchool Stuff/C++ 2/CPP2/LG-Euchre/build/MinSizeRel/EuchreEval.pdb</ProgramDataBaseFile>
+      <ImportLibrary>F:/Users/Luke/Documents/AASchool shit/columbia/C++ 2/CPP2/LG-Euchre/build/MinSizeRel/EuchreEval.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/Users/Luke/Documents/AASchool shit/columbia/C++ 2/CPP2/LG-Euchre/build/MinSizeRel/EuchreEval.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -218,7 +218,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Documents\AASchool Stuff\C++ 2\CPP2\LG-Euchre\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\Users\Luke\Documents\AASchool shit\columbia\C++ 2\CPP2\LG-Euchre\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -235,10 +235,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Documents\AASchool Stuff\C++ 2\CPP2\LG-Euchre\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\Users\Luke\Documents\AASchool shit\columbia\C++ 2\CPP2\LG-Euchre\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Documents\AASchool Stuff\C++ 2\CPP2\LG-Euchre\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\Users\Luke\Documents\AASchool shit\columbia\C++ 2\CPP2\LG-Euchre\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -251,8 +251,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/Documents/AASchool Stuff/C++ 2/CPP2/LG-Euchre/build/RelWithDebInfo/EuchreEval.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/Documents/AASchool Stuff/C++ 2/CPP2/LG-Euchre/build/RelWithDebInfo/EuchreEval.pdb</ProgramDataBaseFile>
+      <ImportLibrary>F:/Users/Luke/Documents/AASchool shit/columbia/C++ 2/CPP2/LG-Euchre/build/RelWithDebInfo/EuchreEval.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/Users/Luke/Documents/AASchool shit/columbia/C++ 2/CPP2/LG-Euchre/build/RelWithDebInfo/EuchreEval.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -260,10 +260,10 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Documents\AASchool Stuff\C++ 2\CPP2\LG-Euchre\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Documents/AASchool Stuff/C++ 2/CPP2/LG-Euchre/CMakeLists.txt</Message>
+    <CustomBuild Include="F:\Users\Luke\Documents\AASchool shit\columbia\C++ 2\CPP2\LG-Euchre\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/Users/Luke/Documents/AASchool shit/columbia/C++ 2/CPP2/LG-Euchre/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"D:\Program Files (x86)\CMake\bin\cmake.exe" "-SD:/Documents/AASchool Stuff/C++ 2/CPP2/LG-Euchre" "-BD:/Documents/AASchool Stuff/C++ 2/CPP2/LG-Euchre/build" --check-stamp-file "D:/Documents/AASchool Stuff/C++ 2/CPP2/LG-Euchre/build/CMakeFiles/generate.stamp"
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SF:/Users/Luke/Documents/AASchool shit/columbia/C++ 2/CPP2/LG-Euchre" "-BF:/Users/Luke/Documents/AASchool shit/columbia/C++ 2/CPP2/LG-Euchre/build" --check-stamp-file "F:/Users/Luke/Documents/AASchool shit/columbia/C++ 2/CPP2/LG-Euchre/build/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -271,12 +271,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Documents\AASchool Stuff\C++ 2\CPP2\LG-Euchre\build\CMakeFiles\3.17.0\CMakeCCompiler.cmake;D:\Documents\AASchool Stuff\C++ 2\CPP2\LG-Euchre\build\CMakeFiles\3.17.0\CMakeCXXCompiler.cmake;D:\Documents\AASchool Stuff\C++ 2\CPP2\LG-Euchre\build\CMakeFiles\3.17.0\CMakeRCCompiler.cmake;D:\Documents\AASchool Stuff\C++ 2\CPP2\LG-Euchre\build\CMakeFiles\3.17.0\CMakeSystem.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\CMakeCInformation.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\CMakeCXXInformation.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\CMakeRCInformation.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\CheckCSourceCompiles.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\CheckIncludeFile.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\CheckLibraryExists.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\FindPackageMessage.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\FindThreads.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\Platform\Windows.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Documents\AASchool Stuff\C++ 2\CPP2\LG-Euchre\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\CheckCSourceCompiles.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\Compiler\MSVC-C.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\FindThreads.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\Platform\Windows.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;F:\Users\Luke\Documents\AASchool shit\columbia\C++ 2\CPP2\LG-Euchre\build\CMakeFiles\3.15.19101501-MSVC_2\CMakeCCompiler.cmake;F:\Users\Luke\Documents\AASchool shit\columbia\C++ 2\CPP2\LG-Euchre\build\CMakeFiles\3.15.19101501-MSVC_2\CMakeCXXCompiler.cmake;F:\Users\Luke\Documents\AASchool shit\columbia\C++ 2\CPP2\LG-Euchre\build\CMakeFiles\3.15.19101501-MSVC_2\CMakeRCCompiler.cmake;F:\Users\Luke\Documents\AASchool shit\columbia\C++ 2\CPP2\LG-Euchre\build\CMakeFiles\3.15.19101501-MSVC_2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\Users\Luke\Documents\AASchool shit\columbia\C++ 2\CPP2\LG-Euchre\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Documents/AASchool Stuff/C++ 2/CPP2/LG-Euchre/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/Users/Luke/Documents/AASchool shit/columbia/C++ 2/CPP2/LG-Euchre/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"D:\Program Files (x86)\CMake\bin\cmake.exe" "-SD:/Documents/AASchool Stuff/C++ 2/CPP2/LG-Euchre" "-BD:/Documents/AASchool Stuff/C++ 2/CPP2/LG-Euchre/build" --check-stamp-file "D:/Documents/AASchool Stuff/C++ 2/CPP2/LG-Euchre/build/CMakeFiles/generate.stamp"
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SF:/Users/Luke/Documents/AASchool shit/columbia/C++ 2/CPP2/LG-Euchre" "-BF:/Users/Luke/Documents/AASchool shit/columbia/C++ 2/CPP2/LG-Euchre/build" --check-stamp-file "F:/Users/Luke/Documents/AASchool shit/columbia/C++ 2/CPP2/LG-Euchre/build/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -284,12 +284,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Documents\AASchool Stuff\C++ 2\CPP2\LG-Euchre\build\CMakeFiles\3.17.0\CMakeCCompiler.cmake;D:\Documents\AASchool Stuff\C++ 2\CPP2\LG-Euchre\build\CMakeFiles\3.17.0\CMakeCXXCompiler.cmake;D:\Documents\AASchool Stuff\C++ 2\CPP2\LG-Euchre\build\CMakeFiles\3.17.0\CMakeRCCompiler.cmake;D:\Documents\AASchool Stuff\C++ 2\CPP2\LG-Euchre\build\CMakeFiles\3.17.0\CMakeSystem.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\CMakeCInformation.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\CMakeCXXInformation.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\CMakeRCInformation.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\CheckCSourceCompiles.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\CheckIncludeFile.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\CheckLibraryExists.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\FindPackageMessage.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\FindThreads.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\Platform\Windows.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Documents\AASchool Stuff\C++ 2\CPP2\LG-Euchre\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\CheckCSourceCompiles.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\Compiler\MSVC-C.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\FindThreads.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\Platform\Windows.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;F:\Users\Luke\Documents\AASchool shit\columbia\C++ 2\CPP2\LG-Euchre\build\CMakeFiles\3.15.19101501-MSVC_2\CMakeCCompiler.cmake;F:\Users\Luke\Documents\AASchool shit\columbia\C++ 2\CPP2\LG-Euchre\build\CMakeFiles\3.15.19101501-MSVC_2\CMakeCXXCompiler.cmake;F:\Users\Luke\Documents\AASchool shit\columbia\C++ 2\CPP2\LG-Euchre\build\CMakeFiles\3.15.19101501-MSVC_2\CMakeRCCompiler.cmake;F:\Users\Luke\Documents\AASchool shit\columbia\C++ 2\CPP2\LG-Euchre\build\CMakeFiles\3.15.19101501-MSVC_2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\Users\Luke\Documents\AASchool shit\columbia\C++ 2\CPP2\LG-Euchre\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Documents/AASchool Stuff/C++ 2/CPP2/LG-Euchre/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule F:/Users/Luke/Documents/AASchool shit/columbia/C++ 2/CPP2/LG-Euchre/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"D:\Program Files (x86)\CMake\bin\cmake.exe" "-SD:/Documents/AASchool Stuff/C++ 2/CPP2/LG-Euchre" "-BD:/Documents/AASchool Stuff/C++ 2/CPP2/LG-Euchre/build" --check-stamp-file "D:/Documents/AASchool Stuff/C++ 2/CPP2/LG-Euchre/build/CMakeFiles/generate.stamp"
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SF:/Users/Luke/Documents/AASchool shit/columbia/C++ 2/CPP2/LG-Euchre" "-BF:/Users/Luke/Documents/AASchool shit/columbia/C++ 2/CPP2/LG-Euchre/build" --check-stamp-file "F:/Users/Luke/Documents/AASchool shit/columbia/C++ 2/CPP2/LG-Euchre/build/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -297,12 +297,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Documents\AASchool Stuff\C++ 2\CPP2\LG-Euchre\build\CMakeFiles\3.17.0\CMakeCCompiler.cmake;D:\Documents\AASchool Stuff\C++ 2\CPP2\LG-Euchre\build\CMakeFiles\3.17.0\CMakeCXXCompiler.cmake;D:\Documents\AASchool Stuff\C++ 2\CPP2\LG-Euchre\build\CMakeFiles\3.17.0\CMakeRCCompiler.cmake;D:\Documents\AASchool Stuff\C++ 2\CPP2\LG-Euchre\build\CMakeFiles\3.17.0\CMakeSystem.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\CMakeCInformation.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\CMakeCXXInformation.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\CMakeRCInformation.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\CheckCSourceCompiles.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\CheckIncludeFile.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\CheckLibraryExists.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\FindPackageMessage.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\FindThreads.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\Platform\Windows.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Documents\AASchool Stuff\C++ 2\CPP2\LG-Euchre\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\CheckCSourceCompiles.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\Compiler\MSVC-C.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\FindThreads.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\Platform\Windows.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;F:\Users\Luke\Documents\AASchool shit\columbia\C++ 2\CPP2\LG-Euchre\build\CMakeFiles\3.15.19101501-MSVC_2\CMakeCCompiler.cmake;F:\Users\Luke\Documents\AASchool shit\columbia\C++ 2\CPP2\LG-Euchre\build\CMakeFiles\3.15.19101501-MSVC_2\CMakeCXXCompiler.cmake;F:\Users\Luke\Documents\AASchool shit\columbia\C++ 2\CPP2\LG-Euchre\build\CMakeFiles\3.15.19101501-MSVC_2\CMakeRCCompiler.cmake;F:\Users\Luke\Documents\AASchool shit\columbia\C++ 2\CPP2\LG-Euchre\build\CMakeFiles\3.15.19101501-MSVC_2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\Users\Luke\Documents\AASchool shit\columbia\C++ 2\CPP2\LG-Euchre\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Documents/AASchool Stuff/C++ 2/CPP2/LG-Euchre/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule F:/Users/Luke/Documents/AASchool shit/columbia/C++ 2/CPP2/LG-Euchre/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"D:\Program Files (x86)\CMake\bin\cmake.exe" "-SD:/Documents/AASchool Stuff/C++ 2/CPP2/LG-Euchre" "-BD:/Documents/AASchool Stuff/C++ 2/CPP2/LG-Euchre/build" --check-stamp-file "D:/Documents/AASchool Stuff/C++ 2/CPP2/LG-Euchre/build/CMakeFiles/generate.stamp"
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SF:/Users/Luke/Documents/AASchool shit/columbia/C++ 2/CPP2/LG-Euchre" "-BF:/Users/Luke/Documents/AASchool shit/columbia/C++ 2/CPP2/LG-Euchre/build" --check-stamp-file "F:/Users/Luke/Documents/AASchool shit/columbia/C++ 2/CPP2/LG-Euchre/build/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -310,19 +310,20 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Documents\AASchool Stuff\C++ 2\CPP2\LG-Euchre\build\CMakeFiles\3.17.0\CMakeCCompiler.cmake;D:\Documents\AASchool Stuff\C++ 2\CPP2\LG-Euchre\build\CMakeFiles\3.17.0\CMakeCXXCompiler.cmake;D:\Documents\AASchool Stuff\C++ 2\CPP2\LG-Euchre\build\CMakeFiles\3.17.0\CMakeRCCompiler.cmake;D:\Documents\AASchool Stuff\C++ 2\CPP2\LG-Euchre\build\CMakeFiles\3.17.0\CMakeSystem.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\CMakeCInformation.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\CMakeCXXInformation.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\CMakeRCInformation.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\CheckCSourceCompiles.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\CheckIncludeFile.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\CheckLibraryExists.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\FindPackageMessage.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\FindThreads.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\Platform\Windows.cmake;D:\Program Files (x86)\CMake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Documents\AASchool Stuff\C++ 2\CPP2\LG-Euchre\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\CheckCSourceCompiles.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\Compiler\MSVC-C.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\FindThreads.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\Platform\Windows.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;F:\Users\Luke\Documents\AASchool shit\columbia\C++ 2\CPP2\LG-Euchre\build\CMakeFiles\3.15.19101501-MSVC_2\CMakeCCompiler.cmake;F:\Users\Luke\Documents\AASchool shit\columbia\C++ 2\CPP2\LG-Euchre\build\CMakeFiles\3.15.19101501-MSVC_2\CMakeCXXCompiler.cmake;F:\Users\Luke\Documents\AASchool shit\columbia\C++ 2\CPP2\LG-Euchre\build\CMakeFiles\3.15.19101501-MSVC_2\CMakeRCCompiler.cmake;F:\Users\Luke\Documents\AASchool shit\columbia\C++ 2\CPP2\LG-Euchre\build\CMakeFiles\3.15.19101501-MSVC_2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\Users\Luke\Documents\AASchool shit\columbia\C++ 2\CPP2\LG-Euchre\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="D:\Documents\AASchool Stuff\C++ 2\CPP2\LG-Euchre\src\main.cpp" />
-    <ClCompile Include="D:\Documents\AASchool Stuff\C++ 2\CPP2\LG-Euchre\src\Card.cpp" />
-    <ClCompile Include="D:\Documents\AASchool Stuff\C++ 2\CPP2\LG-Euchre\src\Deck.cpp" />
+    <ClCompile Include="F:\Users\Luke\Documents\AASchool shit\columbia\C++ 2\CPP2\LG-Euchre\src\main.cpp" />
+    <ClCompile Include="F:\Users\Luke\Documents\AASchool shit\columbia\C++ 2\CPP2\LG-Euchre\src\Card.cpp" />
+    <ClCompile Include="F:\Users\Luke\Documents\AASchool shit\columbia\C++ 2\CPP2\LG-Euchre\src\Deck.cpp" />
+    <ClCompile Include="F:\Users\Luke\Documents\AASchool shit\columbia\C++ 2\CPP2\LG-Euchre\src\EuchreDealer.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="D:\Documents\AASchool Stuff\C++ 2\CPP2\LG-Euchre\build\ZERO_CHECK.vcxproj">
-      <Project>{555BDA19-A97B-3D3B-88BE-09DF623072FE}</Project>
+    <ProjectReference Include="F:\Users\Luke\Documents\AASchool shit\columbia\C++ 2\CPP2\LG-Euchre\build\ZERO_CHECK.vcxproj">
+      <Project>{3BB3D785-25B8-3E69-8994-73672645B74F}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
